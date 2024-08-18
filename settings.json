@@ -1,0 +1,6 @@
+{
+    "port": 7178,
+    "sql": {
+        "databaseName": "development"
+    }
+}

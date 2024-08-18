@@ -1,0 +1,19 @@
+{
+  "name": "simpleaccountsystem-backend",
+  "version": "1.0.0",
+  "description": "This controls the Backend for my Simple Account System. This package will use SQL to save and search for user data, and NodeJS to control the API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Griffin E. Dalby",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "express": "^4.19.2",
+    "simpleaccountsystem-backend": "file:",
+    "sqlite3": "^5.1.7"
+  }
+}
