@@ -1,0 +1,152 @@
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/tmp/curl-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/download-curl-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/verify-curl-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/extract-curl-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\D65059FF280DB329C831D2AC38356125\CURL-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\curl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\FA91EC26A8417813B9B267661CC741F8\CURL-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/Debug/curl-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/Debug/curl-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\FD6DA2DDC29EBA7AC1BC4F583BA124A3\CURL-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild -BC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild --check-stamp-file C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

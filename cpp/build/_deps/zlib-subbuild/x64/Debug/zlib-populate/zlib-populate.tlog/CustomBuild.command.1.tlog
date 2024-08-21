@@ -1,0 +1,150 @@
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F635813D10AA42C5290D5DD5B0F6549F\ZLIB-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\7FAC7ECFF0F7B6DF5DBE1189BDE05355\ZLIB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/Debug/zlib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\1964C0E353CD490B5A531936DC49D57B\ZLIB-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild -BC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild --check-stamp-file C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

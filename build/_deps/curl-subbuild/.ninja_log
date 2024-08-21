@@ -1,0 +1,21 @@
+# ninja log v5
+2	69	7458975411085412	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	b91d6f211c2df208
+3967	4023	7458982048955293	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	8cc65b0ecb9920cc
+4023	4084	7458982049592131	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	80881daaae5c3190
+2	69	7458975411085412	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	b91d6f211c2df208
+9	3967	7458982048423733	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	9ab026a7f0921cf5
+9	3967	7458982048423733	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	9ab026a7f0921cf5
+4249	4304	7458982051791648	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	43d1fd6817aa4c35
+4023	4084	7458982049592131	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	80881daaae5c3190
+3967	4023	7458982048955293	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	8cc65b0ecb9920cc
+4084	4138	7458982050136696	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	8cd7663d54def255
+4084	4138	7458982050136696	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	8cd7663d54def255
+4138	4192	7458982050676135	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	bc30b68fe480022b
+4138	4192	7458982050676135	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	bc30b68fe480022b
+4192	4249	7458982051246289	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	d0219865a6852222
+4192	4249	7458982051246289	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	d0219865a6852222
+4249	4304	7458982051791648	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	43d1fd6817aa4c35
+4304	4379	7458982052547169	CMakeFiles/curl-populate-complete	b5007479bc639778
+4304	4379	7458982052547169	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	b5007479bc639778
+4304	4379	7458982052547169	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	b5007479bc639778
+4304	4379	7458982052547169	C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	b5007479bc639778

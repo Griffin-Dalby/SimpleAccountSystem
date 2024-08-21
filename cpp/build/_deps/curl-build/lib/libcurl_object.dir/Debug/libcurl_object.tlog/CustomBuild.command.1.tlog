@@ -1,0 +1,10 @@
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\CURL-SRC\LIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp -BC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build --check-stamp-file C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-build/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

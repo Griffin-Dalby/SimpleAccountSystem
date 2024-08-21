@@ -18,8 +18,6 @@ const bcrypt = require('bcrypt')
 if (!fs.existsSync('./settings.json')) {
     fs.writeFileSync('./settings.json', JSON.stringify({
         port: 7178,
-
-        
     }, null, 4))
     console.log(`${colors.cyan('[Initalization]')} Generated settings.json!`)
 }
@@ -88,6 +86,14 @@ db.serialize(() => {
 // Variables
 // Functions
 // Section
+
+/* Status Check
+   This route will allow the Frontend to verify the API.
+*/
+app.get('/', (req, res) => {
+    console.log("Request at /")
+    res.sendStatus(200)
+})
 
 /* Register Account
    This route will Register an account with a specified username and password.

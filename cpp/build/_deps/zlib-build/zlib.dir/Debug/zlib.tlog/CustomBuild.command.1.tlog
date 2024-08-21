@@ -1,0 +1,10 @@
+^C:\USERS\GRIFF\ONEDRIVE\DESKTOP\PROJECTS\SIMPLEACCOUNTSYSTEM\CPP\BUILD\_DEPS\ZLIB-SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp -BC:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build --check-stamp-file C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

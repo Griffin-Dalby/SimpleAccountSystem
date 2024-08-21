@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\f635813d10aa42c5290d5dd5b0f6549f\zlib-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\7fac7ecff0f7b6df5dbe1189bde05355\zlib-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\1964c0e353cd490b5a531936dc49d57b\zlib-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Griff\OneDrive\Desktop\Projects\SimpleAccountSystem\cpp\build\_deps\zlib-subbuild\CMakeFiles\zlib-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{08D99AF2-A2D9-335C-8E04-D72FA3500669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/curl-populate
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/fd6da2ddc29eba7ac1bc4f583ba124a3/curl-populate.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/fa91ec26a8417813b9b267661cc741f8/curl-populate-complete.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-build.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-configure.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-download.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-install.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-mkdir.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-patch.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-test.rule
+C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/curl-subbuild/CMakeFiles/d65059ff280db329c831d2ac38356125/curl-populate-update.rule

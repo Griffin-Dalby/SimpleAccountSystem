@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/1964c0e353cd490b5a531936dc49d57b/zlib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/7fac7ecff0f7b6df5dbe1189bde05355/zlib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Griff/OneDrive/Desktop/Projects/SimpleAccountSystem/cpp/build/_deps/zlib-subbuild/CMakeFiles/f635813d10aa42c5290d5dd5b0f6549f/zlib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib-populate"
+		],
+		"name" : "zlib-populate"
+	}
+}
